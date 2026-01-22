@@ -1,0 +1,50 @@
+
+:root{/*variables de css*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+
+
+    --fuente-principal:3.8rem;
+}/*variables de css*/
+
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-size: 16px;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+  font-family: "Krub", sans-serif;
+  
+}
+
+}
+
+.titulo span{
+    font-size: 2rem;
+    color:blue;
+}
+
+.navegacion-principal{
+    background-color: var(--secundario);
+
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
