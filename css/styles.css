@@ -216,3 +216,13 @@ h1,h2,h3{
 .servicio h3{
     
 }
+.servicio .iconos{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
