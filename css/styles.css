@@ -100,8 +100,21 @@ h1,h2,h3{
     }
 
 /*Utilidades*/
-.w-100{
+.w-sm-100{
     width: 100%;
+    width: auto;
+}
+
+@media (min-width:768px) {
+    .w-sm-100
+}
+
+.flex{
+    display: flex;
+}
+
+.alinear-derecha{
+    justify-content: flex-end;
 }
 
 /*Navegacion principal*/
@@ -279,17 +292,16 @@ h1,h2,h3{
     display: block;
     
 }
-.input-text{
-    width: 100;
-    border:none;
-    padding: 1.5rem;
-    display: block;
 
+.campo textarea{
+    height: 20rem;
+    
 }
+
 
 .input-text{
     width: 100%;
-    border: none;
+    border:none;
     padding: 1.5rem;
     border-radius: .5rem;
 
